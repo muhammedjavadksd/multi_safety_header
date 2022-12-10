@@ -1,0 +1,258 @@
+@media(max-width:1274px) {
+    .main-container {
+        width: calc(100% - 10%);
+    }
+}
+
+@media(max-width:1092px) {
+    .logo_header>img {
+        width: 100%;
+    }
+
+    #inp_product_search {
+        display: flex;
+    }
+
+    .search_header {
+        display: block;
+        flex: 3;
+    }
+
+    .links_header {
+        width: 100%;
+        flex: 3;
+    }
+
+    .list_header_soc {
+        float: right;
+    }
+}
+
+@media(max-width:1092px) {
+    .logo_header {
+        width: auto !important;
+        flex: 2;
+    }
+}
+
+
+@media(max-width:980px) {
+    .search_header{
+        display: none;
+    }
+    .logo_header{
+        flex: 1;
+    }
+
+    #searchHeader{
+        display: block;
+    }
+}
+@media(max-width:904px) {
+    .common_menu {
+        padding-top: 3px;
+        display: block;
+        float: unset;
+        padding-left: 0;
+    }
+
+    .common_menu>li {
+        margin-left: 0;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #d9cfcf;
+        padding-bottom: 10px;
+    }
+
+    .common_menu>li>a {
+        font-size: 20px;
+    }
+
+    .bottom_header {
+        display: none;
+        position: fixed;
+        top: 0;
+        z-index: 5;
+        background-color: rgba(0, 0, 0, 0.4);
+
+        height: 100%;
+        width: 100%;
+    }
+
+    .bottom_header>.main-container {
+        width: 100%;
+    }
+
+    .closeCanvas {
+        display: block;
+        border: none;
+        background-color: unset;
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .bg_fixed_menu {
+        width: 300px;
+        background-color: white;
+        height: 100vh;
+        overflow: auto;
+    }
+
+    .bottom_header {
+        padding-top: 0;
+    }
+
+    .bottom_navigation {
+        display: block
+    }
+
+    .only_phone {
+        display: block;
+    }
+
+    .language_state {
+        display: none;
+    }
+
+    .language_state_mob {
+        display: flex !important;
+        float: left;
+        margin-top: 6px;
+        position: relative;
+    }
+
+    .language_state_mob>a {
+        color: var(--main-color);
+    }
+
+    /* body{
+        min-height: 100vh;
+        background-color: rgba(0,0,0,0.2) !important;
+    } */
+}
+
+
+@media(max-width:665px) {
+    .logo_header>img {
+        width: unset !important;
+        margin-left: 0;
+        height: 60px !important;
+    }
+}
+
+@media(max-width:654px) {
+    .alert_top_header {
+        display: none;
+    }
+
+    #headerNormal {
+        display: none;
+    }
+
+
+    #mob_header {
+        display: block;
+    }
+
+}
+
+@media(max-width:586px) {
+    .logo_header {
+        flex: 6;
+        align-items: center;
+        display: flex;
+    }
+
+    .search_header {
+        flex: 0;
+    }
+
+    .links_header {
+        flex: 6;
+    }
+
+    .links_header>ul {
+        padding-left: 0;
+    }
+
+    .bottomNavigation>ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bottomNavigation>ul>li {
+        margin-right: 55px;
+    }
+
+    .post-slider .post-wrapper .post {
+        height: auto;
+    }
+}
+
+@media(max-width:586px) {
+    .bottomNavigation {
+        display: block;
+    }
+
+
+    #searchIcon {
+        display: none !important;
+    }
+
+    .input_search {
+        padding: 10px 15px;
+    }
+
+    .logo_header>img {
+        width: 194px;
+        height: 51px;
+    }
+
+    .showMobIcon {
+        display: block !important;
+    }
+}
+
+@media(max-width:44px) {
+    .logo_header>img {
+        width: 134px;
+        height: 45px;
+        margin-left: 6px;
+    }
+}
+
+@media(max-width:410px) {
+    .bottomNavigation>ul {
+        display: block;
+        justify-content: unsafe;
+    }
+
+    .bottomNavigation>ul>li {
+        margin-right: unset;
+    }
+
+    .logo_header>img {
+        width: 100%;
+        height: 48px;
+        margin-left: 1px;
+    }
+
+}
+
+@media(max-width:390px) {
+    .logo_header>img {
+        width: 83%;
+    }
+}
+
+@media(max-width:355px) {
+    .content_category>h2 {
+        font-size: 18px !important;
+        padding-bottom: 6px;
+    }
+}
+
+@media(max-width:350px) {
+    .logo_header>img {
+        width: 100%;
+    }
+}
